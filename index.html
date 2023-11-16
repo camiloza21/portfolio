@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="menu">
+        <div>
+            <img src="imagenes/logo_Mesa de trabajo 1.png" alt="Logo">
+        </div>
+        <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars" style="color: #000000;"></i></button>
+        <nav class="menu2" id="nav">
+            <ul class="desplegable">
+                <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-x" style="color: #000000;"></i></button>
+                <li ><a href="index.html">Inicio</a>
+                <li ><a href="paginas/formacion.html">Formación</a>
+                <li ><a href="paginas/portfolio.html">Portfolio</a>
+                <li ><a href="paginas/contacto.html">Contacto</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="video">
+            <video src="imagenes/computer_keyboard_-_3174 (720p).mp4"  autoplay></video>
+        </section>
+        <section class="presentacion">
+            <h1>Quien soy</h1>
+            <p>Me llamo <span class="nombre">Camila Lozano</span> y soy estudiante de diseño gráfico. Me encanta crear proyectos innovadores y originales que reflejen mi personalidad y mi estilo. Utilizo herramientas digitales como Adobe Photoshop, Illustrator, InDesign y otras para dar vida a mis ideas. Tengo experiencia en el diseño de logotipos, ilustraciones, sitios web, diseño UX/UI, redes sociales y otros medios. Soy una persona creativa, entusiasta, curiosa y con ganas de aprender. Quiero mostrarles algunos de mis mejores trabajos en esta muestra que he preparado con mucho cariño.</p>
+        </section>
+        <div class="destacados">
+            <h1>Destacados</h1>
+            <article class="tarjetas">
+                 <div class="tar"><img src="imagenes/mary stories_Mesa de trabajo 1 copia 3.jpg" alt="Imagen producto"> <p>Mary - Té en polvo infantil</p></div>
+                 <div class="tar"><img src="imagenes/13907863_2441.jpg" alt="imagen aplicacion"> <p>Tipapp - Elije tipografías</p></div>
+                 <div class="tar"><img src="imagenes/Free iMac Mockup.jpg" alt="imagen web"> <p>Aurea - Revista Digital</p></div>
+                 <div class="tar"><img src="imagenes/197-newspaper-mockup-free.jpg" alt="imagen periodico"> <p>Performance - Diario la Bienal</p></div>
+            </article>
+            <a href="paginas/portfolio.html" class="button">Ver Más</a>
+        </div>
+        <div class="behance">
+            <iframe src="https://www.behance.net/embed/project/166730607?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe src="https://www.behance.net/embed/project/166250403?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe src="https://www.behance.net/embed/project/166376733?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="novedades">
+            <h2>Novedades</h2>
+            <p>Suscribite al newsletter</p>
+            <input type="email" name="email">
+            <button onclick="confirmSuscription()" type="submit" name="enviar" class="suscribirse" >Suscribirse</button>
+        </div>
+        <div class="iconos">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>

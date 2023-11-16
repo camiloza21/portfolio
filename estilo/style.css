@@ -7,8 +7,7 @@
 header{font-family: Arial, Helvetica, sans-serif; display: flex; align-items: center;}
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10vh 3vw 3vh;
+    font-family: Arial, Helvetica, sans-serif; margin: 10vh 3vw 3vh;
 }
 
 p{font-size: 1rem;}
@@ -40,14 +39,9 @@ h1{font-size: 2rem;}
 
 .abrir-menu{display: none;}
 
-.cerrar-menu{
-    display: none;
-}
+.cerrar-menu{display: none;}
 
-.video video{
-    width: 100%;
-    margin: 10vh auto;
-}
+.video video{width: 100%; margin: 10vh auto;}
 
 .presentacion{
     text-align: center;
@@ -109,12 +103,6 @@ li{list-style: none;}
     background-color: black; 
 }
 
-.comentarios {
-    background-color: #bebebe;
-    padding: 4%;
-    margin: 5vh 0;
-}
-
 .formacion ul{margin: 10vh;}
 .formacion ul li h3{margin-top: 3vh;}
 .fadu img{ width: 50%; float: right;}
@@ -125,9 +113,7 @@ li{list-style: none;}
     flex-wrap: wrap;
     margin-bottom: 10vh;
 }
-.behance iframe{
-    margin-top: 3vh;
-}
+.behance iframe{ margin-top: 3vh;}
 
 
 footer{
